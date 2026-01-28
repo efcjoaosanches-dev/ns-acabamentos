@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1200px) {
+    /* ===============[HEADER]============== */
+    #header {padding: 0px;}
+    
+    .header-content {width: 50%;justify-content: center; align-items: center;}
+
+    .menu {width: 50%;}
+
+    /* ===============[SERVICES]============== */
+    #services{position: relative;overflow: hidden;}
+    
+    .services-grid {align-items: center; width: 90%;}
+
+    .services-card {width: 90%;}
+
+    /* ===============[ABOUT]============== */
+    .about-content {width: 90%}
+
+    /* ===============[CLIENT]============== */
+    .strip1 {left: -80px}
+    .strip2 {left: -130px;}
+
+
+    .client-content {width: 100%;}
+    .client-title {font-size: 3rem;}
+    .client-grid {flex-direction:row;}
+    .client-description {font-size: 1.5rem;}
+    
+@media screen and (max-width:900px){
+    /* ===============[HERO]============== */
+    .hero-content {align-items: center;}
+
+    .hero-left {width: 90%;position: static;}
+
+    .hero-text {width: 100%; }
+
+    .hero-title {font-size: 3.5rem;line-height: 5rem;    text-align: center;}
+
+    .hero-span-title {font-size: 6rem;}
+
+    .hero-btns {position: static;}
+
+    /* ===============[SERVICES]============== */    
+    .services-grid {flex-direction: column;;}
+
+    .logo-container {left: 5%;top: 9%;z-index: 0;}
+    .logo-spin {width: 15%;height: 15%;}
+
+
+    /* ===============[ABOUT]============== */
+     .about-content {width: 100%;flex-direction:column;gap:0px;}
+     .about-left {width: 80%; height: auto;}
+     .about-title {font-size: 4rem;}
+
+    /* ===============[CLIENT]============== */
+    .strip1 {left: -80px}
+    .strip2 {left: -130px;}
+
+
+    .client-content {width: 100%;}
+    .client-title {font-size: 2rem;}
+    .client-grid {flex-direction:column;}
+    .client-description {font-size: 1rem;}
+
+
+    /* ===============[FOOTER]============== */
+    .footer-menu {flex-direction: column;}
+}
+
+
+
+} 

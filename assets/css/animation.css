@@ -1,0 +1,38 @@
+@keyframes spin {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+ 0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+
+@keyframes slide {
+  0% {
+    background-image: url(../img/slide/slide001.jpg);
+  }
+  50% {
+    background-image: url(../img/slide/slide002.jpg);
+  }
+  100% {
+    background-image: url(../img/slide/slide001.jpg);
+  }
+}

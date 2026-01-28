@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+/* HERO */
+#hero {
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    gap: 20px;
+    animation: slide 10s infinite;
+}
+
+.hero-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.63);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(5px);
+    gap: 20px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1000px;
+    position: relative;
+    left: 10%;
+}
+
+.hero-title {
+    color: var(--color-white);
+    font-size: 5rem;
+    line-height: 7rem;
+    text-align: start;
+    font-weight: normal;
+}
+
+.hero-span-title {
+    display: block;
+    color: var(--color-yellow);
+    font-size: 10rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.hero-description {
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+
+.hero-btns {
+    text-align: center;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 20px;
+    position: relative;
+    left: 10%;
+}
+
+
+/* ==================[SERVICE]================ */
+
+#services {
+    height: 70vh;
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 15px black;
+}
+
+.logo-container {
+    position: absolute;
+    left: -250px;
+}
+
+.logo-spin{
+    transition: transform 0.5s ease;
+    animation: spin 10s linear infinite;
+}
+
+.services-title {
+    color: var(--color-white);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.services-content {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.services-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    height: 400px;
+}
+
+.services-card-text {
+    color: var(--color-white);
+    width: 85%;
+    font-size: 1.6rem;
+    text-align: start;
+}
+
+.services-card-description {
+    color: var(--color-black);
+    width: 85%;
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+
+/* ==================[ABOUT]================ */
+
+#about {
+    background-color: #2f2f2f;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    width: 1100px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    ;
+    gap: 30px;
+}
+
+.about-left {
+    background-color: var(--color-white);
+    width: 40%;
+    height: 50%;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.438);
+}
+
+.about-title {
+    color: var(--color-black);
+    font-size: 7em;
+    line-height: 90%;
+}
+
+.about-right {
+    width: 65%;
+    height: 50%;
+}
+
+.about-description {
+    color: var(--color-white);
+}
+
+
+
+
+/* ==================[client]================ */
+
+#client {
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    box-shadow: inset 0px 0px 15px black;
+    position: relative;
+    overflow: hidden;
+}
+
+.strip1 {
+    background-color: var(--color-yellow);
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    top: 55px;
+    left: -3%;
+    transform: rotate(-45deg);
+}
+
+.strip2{
+    background-color: var(--color-yellow);
+    position: absolute;
+    width: 350px;
+    height: 15px;
+    top: 96px;
+    left: -3%;
+    transform: rotate(-45deg);
+}
+
+
+
+.client-content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.client-text {
+    width: 75%;
+}
+
+.client-title {
+    color: var(--color-white);
+    font-size: 4em;
+}
+
+.client-description {
+    color: var(--color-yellow);
+    font-size: 2em;
+}
+
+
+.client-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 35px;
+}
+
+
+.client-card-img {
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid var(--color-yellow);
+}
+
+.client-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
