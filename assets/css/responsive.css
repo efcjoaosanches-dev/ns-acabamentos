@@ -73,7 +73,7 @@
 
 
 
-@media screen and (max-width:360px){
+@media screen and (max-width:400px){
     /* ===============[HEADER]============== */
     #header {height: auto; border-radius: 0px 0px 10px 10px;}
     .header-content {gap: 0px;}
